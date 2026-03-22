@@ -1,3 +1,5 @@
+import logo from '../assets/logo.jpg'
+
 export default function Header({ resumePdf }) {
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-[#060914]/70 backdrop-blur-xl">
