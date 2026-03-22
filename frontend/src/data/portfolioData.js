@@ -10,7 +10,7 @@ export const heroSummary =
   'Deo Prakash is an AI Engineer and Software Developer specializing in end-to-end Artificial Intelligence systems, combining backend engineering with applied Machine Learning and Generative AI. Experienced in building production-grade LLM applications, multi-agent orchestration platforms, RAG pipelines, and computer vision systems, delivering measurable business impact.'
 
 export const aboutSummary =
-  'AI Engineer and Software Developer specializing in end-to-end AI systems, combining strong backend engineering with applied Machine Learning and Generative AI. Proven experience building production-grade LLM applications, multi-agent orchestration platforms, RAG pipelines, and computer vision systems.'
+  'Deo Prakash is an AI Engineer and Software Developer specializing in end-to-end AI systems, combining strong backend engineering with applied Machine Learning and Generative AI. Proven experience building production-grade LLM applications, multi-agent orchestration platforms, RAG pipelines, and computer vision systems.'
 
 export const contactInfo = {
   phone: '+91 6203608218',
