@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-[#04060f] text-slate-100 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .container-max {
+    @apply max-w-6xl mx-auto px-6;
+  }
+
+  .card {
+    @apply bg-slate-800/60 border border-slate-700/50 rounded-xl p-5 shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full bg-slate-700/70 px-3 py-1 text-xs text-slate-200;
+  }
+
+  .glass-panel {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_0_35px_rgba(59,130,246,0.12)] transition;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+
+  .stat-card {
+    @apply rounded-xl border border-white/10 bg-white/5 p-4 text-center;
+  }
+
+  .chip-glow {
+    @apply rounded-full border border-cyan-300/40 bg-cyan-500/10 px-3 py-1 text-xs text-cyan-200 shadow-[0_0_10px_rgba(34,211,238,0.35)];
+  }
+
+  .glow-button {
+    @apply inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 via-cyan-400 to-blue-500 px-5 py-2.5 font-semibold text-black shadow-[0_0_16px_rgba(99,102,241,0.4)] transition hover:shadow-[0_0_24px_rgba(34,211,238,0.6)];
+  }
+
+  .icon-button {
+    @apply inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/10 bg-white/5 text-cyan-200 transition hover:border-cyan-300/60 hover:text-white;
+  }
+
+  .input-glow {
+    @apply mt-2 w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-slate-400 focus:border-cyan-300/70 focus:outline-none;
+  }
+
+  .social-pill {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-300/70 hover:text-white;
+  }
+
+  .timeline-card {
+    @apply relative pl-8;
+  }
+
+  .timeline-card::before {
+    content: "";
+    @apply absolute left-[8px] top-0 h-full w-px bg-gradient-to-b from-cyan-400/60 via-blue-500/30 to-transparent;
+  }
+
+  .timeline-dot {
+    @apply absolute left-[1px] top-6 h-4 w-4 rounded-full bg-cyan-400 shadow-[0_0_16px_rgba(34,211,238,0.8)];
+  }
+
+  .floating-node {
+    @apply h-3 w-3 rounded-full bg-cyan-400 shadow-[0_0_18px_rgba(34,211,238,0.9)];
+    animation: float-node 6s ease-in-out infinite;
+  }
+
+  .project-card {
+    @apply border border-white/10;
+  }
+}
+
+@keyframes float-node {
+  0% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(-14px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.6; }
+}
+
+
