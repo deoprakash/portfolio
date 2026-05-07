@@ -48,7 +48,7 @@ export default function Hero({ typingItems, summary, resumePdf }) {
           </span>
         </div>
 
-        <p className="mt-6 text-slate-300 leading-relaxed">{summary}</p>
+        <p className="mt-6 text-slate-300 leading-relaxed text-justify">{summary}</p>
 
         <div className="mt-8 flex flex-wrap gap-4">
           <a

@@ -1,15 +1,15 @@
 export const typingItems = [
   'LLM Applications',
   'Multi-Agent Systems',
-  'Machine Learning Pipelines',
+  'Production AI Systems',
   'Computer Vision Systems',
   'AI Automation Platforms',
 ]
 
 export const heroSummary =
-  'Deo Prakash is an AI Engineer and Software Developer specializing in end-to-end Artificial Intelligence systems, combining backend engineering with applied Machine Learning and Generative AI. Experienced in building production-grade LLM applications, multi-agent orchestration platforms, RAG pipelines, and computer vision systems, delivering measurable business impact.'
+  'AI Engineer and Full-Stack Developer specializing in production-grade LLM applications, RAG systems, AI agents, and scalable backend architectures. Experienced in building high-performance AI platforms with measurable impact across document intelligence, computer vision, and enterprise automation.'
 
-export const aboutSummary =
+  export const aboutSummary =
   'Deo Prakash is an AI Engineer and Software Developer specializing in end-to-end AI systems, combining strong backend engineering with applied Machine Learning and Generative AI. Proven experience building production-grade LLM applications, multi-agent orchestration platforms, RAG pipelines, and computer vision systems.'
 
 export const contactInfo = {
@@ -20,10 +20,10 @@ export const contactInfo = {
 }
 
 export const stats = [
-  { label: 'Projects Built', value: 4 },
+  { label: 'AI Projects Built', value: 10 },
   { label: 'Research Publications', value: 2 },
   { label: 'AI Systems Deployed', value: 6 },
-  { label: 'Years of Development', value: 3 },
+  { label: 'Technologies Used', value: 25 },
 ]
 
 export const education = {
@@ -46,64 +46,77 @@ export const skills = [
   {
     title: 'Languages',
     items: [
-      { name: 'Python (Advanced)', level: 95 },
-      { name: 'JavaScript', level: 85 },
-      { name: 'SQL', level: 80 },
-      { name: 'HTML/CSS', level: 80 },
+      { name: 'Python', level: 95 },
+      { name: 'JavaScript', level: 86 },
+      { name: 'SQL', level: 82 },
+      { name: 'HTML/CSS', level: 84 },
     ],
   },
+
   {
-    title: 'Frameworks',
+    title: 'AI / Machine Learning',
     items: [
-      { name: 'LangChain', level: 85 },
-      { name: 'LangGraph', level: 82 },
-      { name: 'TensorFlow', level: 80 },
-      { name: 'Keras', level: 78 },
-      { name: 'Scikit-learn', level: 86 },
-      { name: 'OpenCV', level: 82 },
-      { name: 'FastAPI', level: 84 },
-      { name: 'Flask', level: 75 },
-      { name: 'React.js', level: 83 },
-      { name: 'React Native', level: 76 },
-    ],
-  },
-  {
-    title: 'AI / ML',
-    items: [
-      { name: 'Machine Learning', level: 92 },
+      { name: 'LLMs & Generative AI', level: 90 },
+      { name: 'Retrieval-Augmented Generation (RAG)', level: 92 },
+      { name: 'AI Agents', level: 86 },
+      { name: 'Prompt Engineering', level: 88 },
+      { name: 'Machine Learning', level: 90 },
       { name: 'Deep Learning (CNNs)', level: 88 },
-      { name: 'Natural Language Processing', level: 80 },
-      { name: 'Generative AI', level: 86 },
-      { name: 'RAG', level: 84 },
-      { name: 'AI Agents', level: 82 },
-      { name: 'Transfer Learning', level: 80 },
-      { name: 'Sentiment Analysis', level: 75 },
-      { name: 'Text Classification', level: 76 },
-      { name: 'Hyperparameter Tuning', level: 74 },
+      { name: 'Transfer Learning', level: 84 },
+      { name: 'Natural Language Processing', level: 84 },
+      { name: 'Computer Vision', level: 86 },
+      { name: 'Semantic Search', level: 88 },
+      { name: 'Vector Embeddings', level: 86 },
+      { name: 'Model Evaluation & Optimization', level: 80 },
+      { name: 'Sentence Transformers', level: 86 },
+      { name: 'Prompt Chaining', level: 82 },
+      { name: 'Context Engineering', level: 84 },
     ],
   },
+
   {
-    title: 'Tools',
+    title: 'Frameworks & Libraries',
     items: [
-      { name: 'Docker', level: 82 },
-      { name: 'Git', level: 86 },
-      { name: 'CI/CD (GitHub Actions)', level: 78 },
-      { name: 'MLOps', level: 74 },
-      { name: 'REST Architecture', level: 84 },
-      { name: 'Android Studio', level: 72 },
-      { name: 'Google Colab', level: 70 },
+      { name: 'LangChain', level: 88 },
+      { name: 'LangGraph', level: 84 },
+      { name: 'FastAPI', level: 90 },
+      { name: 'Flask', level: 82 },
+      { name: 'TensorFlow', level: 82 },
+      { name: 'Scikit-learn', level: 88 },
+      { name: 'OpenCV', level: 84 },
+      { name: 'React.js', level: 85 },
+      { name: 'React Native', level: 76 },
+      { name: 'Tailwind CSS', level: 84 },
+      { name: 'Vite', level: 80 },
     ],
   },
+
   {
-    title: 'Data & Databases',
+    title: 'Databases & Vector Stores',
     items: [
-      { name: 'Pinecone', level: 80 },
-      { name: 'Chroma', level: 78 },
-      { name: 'MySQL', level: 78 },
-      { name: 'MongoDB', level: 82 },
+      { name: 'MongoDB', level: 86 },
+      { name: 'MySQL', level: 80 },
       { name: 'PostgreSQL', level: 80 },
-      { name: 'Power BI', level: 70 },
-      { name: 'Google BigQuery', level: 72 },
+      { name: 'ChromaDB', level: 86 },
+      { name: 'FAISS', level: 88 },
+      { name: 'Pinecone', level: 82 },
+      { name: 'Google BigQuery', level: 74 },
+    ],
+  },
+
+  {
+    title: 'Cloud, DevOps & Deployment',
+    items: [
+      { name: 'Docker', level: 84 },
+      { name: 'CI/CD (GitHub Actions)', level: 80 },
+      { name: 'Railway', level: 82 },
+      { name: 'Vercel', level: 84 },
+      { name: 'Microsoft Azure', level: 74 },
+      { name: 'REST APIs', level: 88 },
+      { name: 'Microservices', level: 78 },
+      { name: 'MLOps', level: 78 },
+      { name: 'Git & GitHub', level: 88 },
+      { name: 'System Design', level: 78 },
     ],
   },
 ]
@@ -133,6 +146,13 @@ export const experiences = [
 
 export const projects = [
   {
+    name: 'Corelign — Enterprise AI Document Intelligence Platform',
+    tags: [ 'RAG','LLM Applications','Semantic Search','AI Agents','Vector Databases'],
+    github: 'https://github.com/deoprakash/Corelign',
+    live: 'https://www.corelign.deoprakashprojects.tech/',
+    description:'Corelign is a production-ready AI document intelligence platform enabling natural-language interaction with enterprise documents through an advanced RAG pipeline. Built using FastAPI, React, FAISS, ChromaDB, Hugging Face embeddings, and Groq LLMs, the system achieved 92% retrieval accuracy, 94% chunk recall, ~5% hallucination rate, and 647 ms average response latency. Designed with scalable semantic retrieval, vector search, analytics tracking, and deployment-ready architecture for real-world AI applications.'
+  },
+  {
     name: 'Multi-Disease Prediction System',
     tags: ['Deep Learning', 'Medical Imaging', 'Multimodal AI', 'Edge Deployment'],
     github: 'https://github.com/deoprakash/multi_disease_prediction',
@@ -145,13 +165,6 @@ export const projects = [
     github: 'https://github.com/deoprakash/product-defect-classification',
     description:
       'Co-authored a research paper on defect identification using CNNs. Performed dataset curation, preprocessing, and augmentation using Python, Pandas, and NumPy. Evaluated models using precision and recall across multiple defect categories.',
-  },
-  {
-    name: 'Intellixa - Multi-Agent AI Orchestration Platform',
-    tags: ['LLMs', 'LangGraph', 'RAG', 'AI Agents'],
-    github: 'https://github.com/deoprakash/Intellixa',
-    description:
-      'Implemented LangGraph-based multi-agent workflows. Reduced LLM costs by 67% and hallucinations by 30% using a Critic-Reviewer pattern. Optimized tasks into 4-6 strategic LLM calls for reliable production-grade autonomy.',
   },
   {
     name: 'Intelligent Document Assistant',
